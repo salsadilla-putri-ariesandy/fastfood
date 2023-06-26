@@ -1,0 +1,180 @@
+.centered-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+span {
+  color: #fff;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+/* navbar */
+.icon_nav {
+  width: 40px;
+}
+
+.search {
+  margin-left: 10rem;
+}
+
+/* akhir navbar */
+
+/* banner */
+/* Mengatur tampilan section .home-detail */
+.home-detail {
+  padding: 20px;
+}
+
+/* Mengatur tampilan gambar utama */
+.img-detail img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mengatur tampilan gambar kecil */
+.img-detail-small img {
+  width: 345px;
+  height: 124.5px;
+}
+
+/* Mengatur tampilan komponen-detail-small */
+.componen-detail-small {
+  margin-bottom: 10px;
+}
+/* akhir banner */
+
+/* select fill */
+.select-fill {
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-shrink: 0;
+  background: rgba(217, 217, 217, 0.56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-fill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form-fill label {
+  margin-bottom: 5px;
+}
+
+.form-fill input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+.text-fill p {
+  color: #000;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.submit-but {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+/* akhir select fill */
+
+/* Footer */
+.footer {
+  width: auto;
+  height: 334px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  width: 45px;
+  height: 40px;
+}
+
+.footer-tag {
+  text-align: right;
+}
+
+.footer-tag h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+
+  color: #152c5b;
+}
+
+.footer-tag p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #b0b0b0;
+}
+
+.footer-copyright {
+  background-color: #171938;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #171938;
+}
+
+footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+footer p a {
+  font-weight: 500;
+  color: #fcbb3a;
+  transition: all 0.2s ease-in-out;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: #f8a90b;
+  transform: scale(1.1);
+}
+.img_icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* akhir footer */
+
+/* Add your responsive styles here */
+@media only screen and (max-width: 768px) {
+  /* Styles for tablets */
+  body {
+    zoom: 75%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* Styles for mobile devices */
+  body {
+    zoom: 60%;
+  }
+}

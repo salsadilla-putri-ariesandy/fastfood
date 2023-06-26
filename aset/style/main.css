@@ -1,0 +1,178 @@
+.button-back {
+  text-align: center;
+}
+.ccenter {
+  min-height: 100vh;
+}
+/* navbar */
+.icon_nav {
+  width: 40px;
+}
+
+.search {
+  margin-left: 10rem;
+}
+
+/* akhir navbar */
+
+/* banner */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  text-align: center;
+}
+
+.banner-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* akhir banner */
+
+/* popular product */
+.img_popular {
+  margin-top: 50px;
+}
+.component-products:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+.products-image {
+  width: 70%;
+  height: 70%;
+  margin-left: 45px;
+}
+
+.popular_product {
+  margin-top: 50px;
+  height: auto;
+  position: relative;
+  background-color: rgba(195, 125, 41, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular_product .a p {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 32px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.products-text {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  font-family: Poppins;
+}
+
+.products-price {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  font-family: Poppins;
+}
+
+/* akhir popular product */
+/* Footer */
+.footer {
+  width: auto;
+  height: 334px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  width: 45px;
+  height: 40px;
+}
+
+.footer-tag {
+  text-align: right;
+}
+
+.footer-tag h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+
+  color: #152c5b;
+}
+
+.footer-tag p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #b0b0b0;
+}
+
+.footer-copyright {
+  background-color: #171938;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #171938;
+}
+
+footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+footer p a {
+  font-weight: 500;
+  color: #fcbb3a;
+  transition: all 0.2s ease-in-out;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: #f8a90b;
+  transform: scale(1.1);
+}
+.img_icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* akhir footer */
+
+/* responsif */
+/* Custom styles for responsiveness */
+
+/* Tablets and larger */
+@media (min-width: 768px) {
+  body {
+    zoom: 100%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 767.98px) {
+  body {
+    zoom: 90%;
+  }
+}
